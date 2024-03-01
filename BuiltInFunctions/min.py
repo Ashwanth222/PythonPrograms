@@ -82,6 +82,8 @@ print(set(res))
 actions=['eat', 'sleep','read']
 print(list(map(list,actions)))
 
+print(min(2,4,7,1))
+
 
 
 

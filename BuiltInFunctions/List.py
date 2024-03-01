@@ -121,3 +121,53 @@ list_2 = [1, 2, 3]
 
 list_2.extend(list_1)
 print(list_2)
+
+list_8 = ['apple', 'banana', 'pine-apple', 'jack-fruit', 'coconut']
+list_9 = [3, 6, 8, 5, 1, 2]
+
+list_8.extend(list_9)
+list_9.extend(list_8)
+print(list_8)
+print(list_9)
+
+print(list_8)
+list_8.pop()
+print(list_8)
+list_8.pop(-3)
+print(list_8)
+list_8.pop(2)
+print(list_8)
+
+list_10 = list_8.copy()
+print(list_10)
+
+print(list_10.count(3))
+
+list_10.clear()
+print(list_10)
+
+del list_10
+
+# print(list_10)
+
+list_6 = [56, 89, 90, 99]
+list_6.reverse()
+print(list_6)
+
+list_6.sort()
+print(list_6)
+
+list_6[1] = 33
+print(list_6)
+
+print(list_6[-1])
+
+print(list_6[3])
+
+print(list_6.remove(33))
+print(list_6)
+
+list_6.insert(2,34)
+print(list_6)
+
+
