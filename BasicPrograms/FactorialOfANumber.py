@@ -9,3 +9,15 @@ else:
         factorial = factorial*i
     print(factorial)
 
+#alternate
+def factorial(num):
+    if num == 1 :
+        return 1;
+    else:
+        return (num*factorial(num-1))
+
+
+num = 3
+print("The factorial of", num, "is", factorial(num))
+
+
