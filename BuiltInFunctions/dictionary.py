@@ -45,3 +45,4 @@ print(my_dict2)
 
 my_dict2.clear()
 print(my_dict2)
+print(type(my_dict))
